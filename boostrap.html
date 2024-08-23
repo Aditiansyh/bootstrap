@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="korea.png" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                    Korea Selatan
+                  </a>
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu List</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Another
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Buy Ticket</a></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="jeonju.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jeonju</h5>
+              <p>Jeonju merupakan sebuah kota di Korea Selatan yang letaknya berada di sisi barat negara tersebut, tepatnya di Provinsi Jeolla Utara, sekaligus merupakan ibu kota provinsi tersebut. Pada tahun 2005, kota ini memiliki jumlah penduduk sebanyak 645.108 jiwa dengan luas wilayah 206,25 km².</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="myeongdong.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Myeondong Street</h5>
+              <p>Myeongdong atau Myongdong adalah sebuah permukiman di kota Seoul (dong) di divisi adminstratif Jung-gu, berlokasi antara Chungmuro, Euljiro, dan Namdaemun-ro. Wilayahnya mencakup 0,91 km² dengan populasi 2.986 jiwa, dan sebagian besar wilayahnya adalah distrik komersial dan bisnis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Korea malam.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Seoul</h5>
+              <p>Seoul, secara resmi dikenal sebagai Kota Khusus Seoul, adalah ibu kota Korea Selatan yang berusia lebih dari 600 tahun dan hingga 1945, ibu kota dari seluruh Korea.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- canvas -->
+<div class="bg-light text-dark p-5 text-center">
+  <div class="container">
+    <h1 class="display-4">Welcome!</h1>
+    <p class="lead">Sedikit Pengetahuan Sebelum Berlibur</p>
+    <a href="#" class="btn btn-primary btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Press!</a>
+  </div>
+</div>
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Penjelasan</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Korea Selatan, secara resmi bernama Republik Korea, adalah sebuah negara di Asia Timur yang meliputi wilayah selatan Semenanjung Korea. Di sebelah utara, Korea Selatan berbatasan dengan Korea Utara, di mana keduanya bersatu sebagai sebuah negara hingga tahun 1948.
+    </div>  
+    </div>
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sejarah Singkat Korea Selatan</h5>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Korea Selatan, seperti yang kita kenal sekarang, terbentuk setelah Perang Dunia II. Sebelumnya, semenanjung Korea pernah disatukan dalam berbagai kerajaan besar seperti Silla, Goryeo, dan Joseon. Namun, pada awal abad ke-20, Korea dijajah oleh Jepang selama 35 tahun. <br> <br>
+
+        Setelah Jepang kalah dalam Perang Dunia II, Korea dibagi menjadi dua bagian: Korea Utara dan Korea Selatan. Pada tahun 1948, Korea Selatan secara resmi berdiri. Sayangnya, tak lama kemudian, Perang Korea pecah. <br> <br>
+
+        Setelah perang, Korea Selatan mengalami masa-masa sulit, namun berhasil bangkit menjadi negara industri yang maju. Negara ini dikenal dengan pertumbuhan ekonominya yang pesat, teknologi canggih, dan budaya pop yang populer di seluruh dunia. <br> <br>
+
+      <b>Poin-poin penting:</b> <br>
+       <b>Penjajahan Jepang:</b> Mempengaruhi perkembangan Korea selama 35 tahun. <br>
+        <b>Pembagian Korea:</b> Akibat Perang Dunia II, Korea terbagi menjadi dua. <br>
+        <b>Perang Korea:</b> Perang saudara yang menyebabkan kerusakan besar. <br>
+        <b>Keajaiban Ekonomi:</b> Pertumbuhan ekonomi yang sangat cepat setelah perang. <br>
+        <b>Demokrasi:</b> Perjuangan panjang untuk mencapai demokrasi. <br>
+      </div>  
+      </div>
+  </div>
+</div>
+
+<!-- roti -->
+<nav aria-label="breadcrumb" class="mt-5">
+  <div class="container">
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+          <li class="breadcrumb-item"><a href="#">Kegiatan</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Populer</li>
+      </ol>
+  </div>
+</nav>
+
+<!-- Card -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Rekomendsi Rekreasi Populer <span class="badge bg-primary">New</span></h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR1o1v8YL64olSFfgMaaUggdI7ZIoWpYUY9Wsl46OCSSSQ5Jv_pv-JgPnW6vtXHJkxsgligbZt0YL3bc-krQv8vwVuUlJY5_EWrSvbZ3Q" class="card-img-top" alt="istana">
+              <div class="card-body">
+                  <h5 class="card-title">Kyŏngbokkung</h5>
+                  <p class="card-text">Istana Gyeongbok adalah sebuah istana yang terletak di sebelah utara kota Seoul, Korea Selatan. Istana ini termasuk dari lima istana besar dan merupakan yang terbesar yang dibangun oleh Dinasti Joseon. Istana Gyeongbok aslinya didirikan tahun 1394 oleh Jeong Do Jeon, seorang arsitek.</p>
+                  <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQBKjxDBKcHmAQAPEqeZViQ7Mh3fzn-CICMLGgCA0KJP5F45Jgozbqkh_AiOKLTu8rx8EUgShdTphyhMW4X7DwiRcXh1H3ql_LqXz3tLA" class="card-img-top" alt="menara">
+              <div class="card-body">
+                  <h5 class="card-title">Menara Seoul</h5>
+                  <p class="card-text">Menara Seoul N, atau resminya bernama Menara Seoul YTN dan biasanya disebut Menara Namsan atau Menara Seoul, adalah sebuah menara observasi dan komunikasi yang terletak di Gunung Namsan di Seoul, Korea Selatan. Menara setinggi 236 meter ini merupakan titik tertinggi kedua di Seoul.</p>
+                  <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQfjFUFToqGHgysERtYHgrDBdfO82zc-366KqBjunb3sUS9ZtyqH1mzPWFhz3SIeixlQANCckOymF14e9Zy5oZGRJJVoXAFdkT1lXBG4w" class="card-img-top" alt="Trekking">
+              <div class="card-body">
+                  <h5 class="card-title">Museum Nasional Korea</h5>
+                  <p class="card-text">Museum Nasional Korea atau National Museum of Korea adalah sebuah museum yang terletak di Seoul, Korea Selatan. Museum ini merupakan museum yang terbesar di Korea Selatan dan menampilkan koleksi benda-benda bersejarah Korea yang penting.</p>
+                  <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- peringatan -->
+<div class="container my-4">
+  <div class="alert alert-primary" role="alert">
+      <strong>Promo Spesial!</strong> Dapatkan diskon 30% untuk semua paket rekreasi bulan ini. <a href="#"
+          class="alert-link">Pesan Sekarang!</a>
+  </div>
+</div>
+
+<!-- pagination am -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+<footer class="footer py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>We made this web to make everyone know about South Korea</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Home</a></li>
+          <li><a href="#" class="text-white">Destinations</a></li>
+          <li><a href="#" class="text-white">Cultural Experiences</a></li>
+          <li><a href="#" class="text-white">Outdoor Activities</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Stay Connected</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white"><i
+                class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="#" class="text-white"><i
+                class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="#" class="text-white"><i 
+                class="fab fa-twitter"></i> Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="text-center">&copy; 2024 South Korea. All rights
+      reserved.</p>
+  </div>
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
